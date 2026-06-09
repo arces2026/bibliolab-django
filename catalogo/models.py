@@ -13,3 +13,7 @@ class Libro(models.Model):
 
     def __str__(self):
         return f"{self.titolo} di {self.autore} edito da {self.editore}"
+    
+    class Meta:
+        verbose_name_plural = 'Libri' # Forza il plurale nella visualizzazione in /Admin
+        ordering = ['creato_il'] #  default crescente '-' decrescente
