@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class Libro(models.Model):
+class Prodotto(models.Model):
     titolo = models.CharField(max_length=500)
     autore = models.CharField(max_length=200)
     editore = models.CharField(max_length=200)
@@ -15,5 +15,5 @@ class Libro(models.Model):
         return f"{self.titolo} di {self.autore} edito da {self.editore}"
     
     class Meta:
-        verbose_name_plural = 'Libri' # Forza il plurale nella visualizzazione in /Admin
+        verbose_name_plural = 'Prodotti' # Forza il plurale nella visualizzazione in /Admin
         ordering = ['creato_il'] #  default crescente '-' decrescente
