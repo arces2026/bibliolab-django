@@ -3,7 +3,7 @@ from .models import Prodotto
 # Register your models here.
 
 @admin.register(Prodotto)
-class LibroAdmin(admin.ModelAdmin):
+class ProdottoAdmin(admin.ModelAdmin):
     list_display = ['titolo', 'autore', 'prezzo', 'disponibile', 'creato_il']
     list_filter = ['disponibile']
     search_fields = ['autore', 'titolo']
