@@ -1,8 +1,8 @@
 from django.contrib import admin
-from .models import Libro
+from .models import Prodotto
 # Register your models here.
 
-@admin.register(Libro)
+@admin.register(Prodotto)
 class LibroAdmin(admin.ModelAdmin):
     list_display = ['titolo', 'autore', 'prezzo', 'disponibile', 'creato_il']
     list_filter = ['disponibile']
