@@ -4,7 +4,7 @@ from .models import Prodotto
 
 @admin.register(Prodotto)
 class ProdottoAdmin(admin.ModelAdmin):
-    list_display = ['titolo', 'autore', 'prezzo', 'disponibile', 'creato_il']
+    list_display = ['titolo', 'autore', 'disponibile', 'anno_pubblicazione']
     list_filter = ['disponibile']
     search_fields = ['autore', 'titolo']
-    list_editable = ['disponibile', 'prezzo']
+    list_editable = ['disponibile']

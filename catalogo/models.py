@@ -4,16 +4,13 @@ from django.db import models
 class Prodotto(models.Model):
     titolo = models.CharField(max_length=500)
     autore = models.CharField(max_length=200)
-    editore = models.CharField(max_length=200)
-    descrizione = models.TextField(blank=True)
+    anno_pubblicazione = models.IntegerField()
     disponibile = models.BooleanField(default=True)
-    prezzo = models.DecimalField(max_digits=8, decimal_places=2)
-    anno_pubblicazione = models.DateField(blank=True)
-    creato_il = models.DateTimeField(auto_now_add=True)
+    
 
     def __str__(self):
-        return f"{self.titolo} di {self.autore} edito da {self.editore}"
-    
+        return f"{self.titolo} di {self.autore}"
+
     class Meta:
         verbose_name_plural = 'Prodotti' # Forza il plurale nella visualizzazione in /Admin
-        ordering = ['creato_il'] #  default crescente '-' decrescente
+       
