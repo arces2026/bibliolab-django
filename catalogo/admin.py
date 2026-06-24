@@ -1,17 +1,17 @@
 from django.contrib import admin
-from .models import Prodotto, Prodotto_new, Cliente, Ordine
+from .models import Libro, Prodotto, Cliente, Ordine
 # Register your models here.
 
-@admin.register(Prodotto)
-class ProdottoAdmin(admin.ModelAdmin):
+@admin.register(Libro)
+class LibroAdmin(admin.ModelAdmin):
     list_display = ['titolo', 'autore', 'disponibile', 'anno_pubblicazione']
     list_filter = ['disponibile']
     search_fields = ['autore', 'titolo']
     list_editable = ['disponibile']
 
 
-@admin.register(Prodotto_new)
-class Prodotto_newAdmin(admin.ModelAdmin):
+@admin.register(Prodotto)
+class ProdottoAdmin(admin.ModelAdmin):
     list_display = ['nome', 'descrizione', 'prezzo', 'categoria', 'quantita']
     list_filter = ['categoria']
     search_fields = ['descrizione']

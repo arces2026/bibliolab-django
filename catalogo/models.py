@@ -1,7 +1,7 @@
 from django.db import models
 
 # Create your models here.
-class Prodotto(models.Model):
+class Libro(models.Model):
     titolo = models.CharField(max_length=500)
     autore = models.CharField(max_length=200)
     anno_pubblicazione = models.IntegerField()
@@ -12,10 +12,11 @@ class Prodotto(models.Model):
         return f"{self.titolo} di {self.autore}"
 
     class Meta:
-        verbose_name_plural = 'Prodotti' # Forza il plurale nella visualizzazione in /Admin
+        db_table = 'libri_prodotto'
+        verbose_name_plural = 'Libri' # Forza il plurale nella visualizzazione in /Admin
        
 
-class Prodotto_new(models.Model):
+class Prodotto(models.Model):
     nome = models.CharField(max_length=500)
     descrizione = models.TextField()
     prezzo = models.DecimalField(max_digits=10,decimal_places= 2)
@@ -26,7 +27,8 @@ class Prodotto_new(models.Model):
         return f'{self.nome}, {self.descrizione}'
     
     class Meta:
-        verbose_name_plural = 'Prodotti_new'
+        db_table = 'prodotti_prodotto_new'
+        verbose_name_plural = 'Prodotti'
 
 # Definisci le scelte PRIMA del modello
 STATO_ORDINE = [
@@ -38,7 +40,7 @@ STATO_ORDINE = [
 
 class Ordine(models.Model):
     cliente = models.ForeignKey('Cliente', on_delete=models.CASCADE, related_name='ordini_clienti')
-    prodotto = models.ForeignKey(Prodotto_new, on_delete=models.CASCADE, related_name='ordini_prodotti')
+    prodotto = models.ForeignKey(Prodotto, on_delete=models.CASCADE, related_name='ordini_prodotti')
     quantita = models.PositiveIntegerField(default=1)
     totale = models.DecimalField(max_digits=10, decimal_places=2, default=0)
     data_ordine = models.DateTimeField(default='2024-01-01 00:00:00')
