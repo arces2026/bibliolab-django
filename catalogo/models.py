@@ -36,7 +36,6 @@ STATO_ORDINE = [
     ('cancellato', 'Cancellato'),
 ]
 
-
 class Ordine(models.Model):
     cliente = models.ForeignKey('Cliente', on_delete=models.CASCADE, related_name='ordini_clienti')
     prodotto = models.ForeignKey(Prodotto_new, on_delete=models.CASCADE, related_name='ordini_prodotti')
@@ -55,7 +54,6 @@ class Cliente(models.Model):
     email = models.EmailField(blank=True, default='')
     telefono = models.CharField(max_length=30, blank=True, default='')
     indirizzo = models.CharField(max_length=100, blank=True, default='')
-    # ordini = models.ForeignKey(Ordine, on_delete=models.CASCADE, related_name='ordini')
 
     def __str__(self):
         return f'{self.nome}'

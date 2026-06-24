@@ -15,6 +15,7 @@ class Prodotto_newAdmin(admin.ModelAdmin):
     list_display = ['nome', 'descrizione', 'prezzo', 'categoria', 'quantita']
     list_filter = ['categoria']
     search_fields = ['descrizione']
+    ordering = ['-prezzo']
 
 
 @admin.register(Cliente)
