@@ -48,6 +48,9 @@ class Ordine(models.Model):
     
     def __str__(self):
         return f"Ordine #{self.id} - {self.cliente.nome} {self.cliente.cognome}"
+    
+    class Meta:
+        verbose_name_plural = 'Ordini'
 
 
 class Cliente(models.Model):
