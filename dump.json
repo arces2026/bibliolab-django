@@ -1,0 +1,3773 @@
+[
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 3,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 3,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 3,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 3,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 2,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 2,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 2,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 2,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add libro",
+        "content_type": 7,
+        "codename": "add_libro"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change libro",
+        "content_type": 7,
+        "codename": "change_libro"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete libro",
+        "content_type": 7,
+        "codename": "delete_libro"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view libro",
+        "content_type": 7,
+        "codename": "view_libro"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add prodotto",
+        "content_type": 8,
+        "codename": "add_prodotto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change prodotto",
+        "content_type": 8,
+        "codename": "change_prodotto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete prodotto",
+        "content_type": 8,
+        "codename": "delete_prodotto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view prodotto",
+        "content_type": 8,
+        "codename": "view_prodotto"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add cliente",
+        "content_type": 9,
+        "codename": "add_cliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change cliente",
+        "content_type": 9,
+        "codename": "change_cliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete cliente",
+        "content_type": 9,
+        "codename": "delete_cliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view cliente",
+        "content_type": 9,
+        "codename": "view_cliente"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add prodotto_new",
+        "content_type": 11,
+        "codename": "add_prodotto_new"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change prodotto_new",
+        "content_type": 11,
+        "codename": "change_prodotto_new"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete prodotto_new",
+        "content_type": 11,
+        "codename": "delete_prodotto_new"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view prodotto_new",
+        "content_type": 11,
+        "codename": "view_prodotto_new"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add ordine",
+        "content_type": 10,
+        "codename": "add_ordine"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change ordine",
+        "content_type": 10,
+        "codename": "change_ordine"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete ordine",
+        "content_type": 10,
+        "codename": "delete_ordine"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view ordine",
+        "content_type": 10,
+        "codename": "view_ordine"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$1200000$NuHGS2UCObEWMjAYM8nrP8$hlS80FR25QBujP12XZss8+h7FnEnDPceVBpBUehCDg8=",
+        "last_login": "2026-06-23T06:36:05.734Z",
+        "is_superuser": true,
+        "username": "marco",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2026-06-10T11:00:13.269Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "catalogo",
+        "model": "libro"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "catalogo",
+        "model": "prodotto"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "catalogo",
+        "model": "cliente"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "catalogo",
+        "model": "ordine"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "catalogo",
+        "model": "prodotto_new"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "rer8d6hd5pqd18r3w4zx9ddzgj3r67m9",
+    "fields": {
+        "session_data": ".eJxVjMsOgjAQAP9lz6ah2xdy9M43kN12a1FDEwon478bEg56nZnMGybatzLtTdZpTjCAhssvY4pPWQ6RHrTcq4p12daZ1ZGo0zY11iSv29n-DQq1AgM4Z7LnnpOJFlnnHgUjo3QcJeQOA1nnDLHN3qENwUTnUfiacwhWJ4LPF_EFOC0:1wbujt:yJak_sDon6uB7VJiIRLot01gttKzvAAekgnIrosW5Yg",
+        "expire_date": "2026-07-07T06:36:05.743Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "wznsdp8cwykw9xbygtb7k5aoj4e4u6ef",
+    "fields": {
+        "session_data": ".eJxVjMsOgjAQAP9lz6ah2xdy9M43kN12a1FDEwon478bEg56nZnMGybatzLtTdZpTjCAhssvY4pPWQ6RHrTcq4p12daZ1ZGo0zY11iSv29n-DQq1AgM4Z7LnnpOJFlnnHgUjo3QcJeQOA1nnDLHN3qENwUTnUfiacwhWJ4LPF_EFOC0:1wXGg6:QvXb7qi9sw1s-lLQ0JQkc9hbIG7cluCrv4N-ziTh1nA",
+        "expire_date": "2026-06-24T11:00:58.521Z"
+    }
+},
+{
+    "model": "catalogo.prodotto",
+    "pk": 1,
+    "fields": {
+        "titolo": "Il Nome della Rosa",
+        "autore": "Umberto Eco",
+        "anno_pubblicazione": 1980,
+        "disponibile": true
+    }
+},
+{
+    "model": "catalogo.prodotto",
+    "pk": 2,
+    "fields": {
+        "titolo": "Se questo è un uomo",
+        "autore": "Primo Levi",
+        "anno_pubblicazione": 1947,
+        "disponibile": true
+    }
+},
+{
+    "model": "catalogo.prodotto",
+    "pk": 3,
+    "fields": {
+        "titolo": "I Promessi Sposi",
+        "autore": "Alessandro Manzoni",
+        "anno_pubblicazione": 1827,
+        "disponibile": true
+    }
+},
+{
+    "model": "catalogo.prodotto",
+    "pk": 4,
+    "fields": {
+        "titolo": "Fontamara",
+        "autore": "Ignazio Silone",
+        "anno_pubblicazione": 1933,
+        "disponibile": true
+    }
+},
+{
+    "model": "catalogo.prodotto",
+    "pk": 5,
+    "fields": {
+        "titolo": "Cristo si è fermato a Eboli",
+        "autore": "Carlo Levi",
+        "anno_pubblicazione": 1945,
+        "disponibile": true
+    }
+},
+{
+    "model": "catalogo.prodotto",
+    "pk": 6,
+    "fields": {
+        "titolo": "La coscienza di Zeno",
+        "autore": "Italo Svevo",
+        "anno_pubblicazione": 1923,
+        "disponibile": true
+    }
+},
+{
+    "model": "catalogo.prodotto",
+    "pk": 7,
+    "fields": {
+        "titolo": "Uno, nessuno e centomila",
+        "autore": "Luigi Pirandello",
+        "anno_pubblicazione": 1926,
+        "disponibile": true
+    }
+},
+{
+    "model": "catalogo.prodotto",
+    "pk": 8,
+    "fields": {
+        "titolo": "Il Gattopardo",
+        "autore": "Giuseppe Tomasi di Lampedusa",
+        "anno_pubblicazione": 1958,
+        "disponibile": true
+    }
+},
+{
+    "model": "catalogo.prodotto",
+    "pk": 9,
+    "fields": {
+        "titolo": "Le città invisibili",
+        "autore": "Italo Calvino",
+        "anno_pubblicazione": 1972,
+        "disponibile": true
+    }
+},
+{
+    "model": "catalogo.prodotto",
+    "pk": 10,
+    "fields": {
+        "titolo": "Il barone rampante",
+        "autore": "Italo Calvino",
+        "anno_pubblicazione": 1957,
+        "disponibile": true
+    }
+},
+{
+    "model": "catalogo.prodotto",
+    "pk": 11,
+    "fields": {
+        "titolo": "Siddharta",
+        "autore": "Hermann Hesse",
+        "anno_pubblicazione": 1922,
+        "disponibile": true
+    }
+},
+{
+    "model": "catalogo.prodotto",
+    "pk": 12,
+    "fields": {
+        "titolo": "Il Processo",
+        "autore": "Franz Kafka",
+        "anno_pubblicazione": 1925,
+        "disponibile": true
+    }
+},
+{
+    "model": "catalogo.prodotto",
+    "pk": 13,
+    "fields": {
+        "titolo": "1984",
+        "autore": "George Orwell",
+        "anno_pubblicazione": 1949,
+        "disponibile": true
+    }
+},
+{
+    "model": "catalogo.prodotto",
+    "pk": 14,
+    "fields": {
+        "titolo": "Il Signore degli Anelli",
+        "autore": "J.R.R. Tolkien",
+        "anno_pubblicazione": 1954,
+        "disponibile": true
+    }
+},
+{
+    "model": "catalogo.prodotto",
+    "pk": 15,
+    "fields": {
+        "titolo": "Don Chisciotte",
+        "autore": "Miguel de Cervantes",
+        "anno_pubblicazione": 1605,
+        "disponibile": true
+    }
+},
+{
+    "model": "catalogo.prodotto",
+    "pk": 16,
+    "fields": {
+        "titolo": "Delitto e castigo",
+        "autore": "Fëdor Dostoevskij",
+        "anno_pubblicazione": 1866,
+        "disponibile": true
+    }
+},
+{
+    "model": "catalogo.prodotto",
+    "pk": 17,
+    "fields": {
+        "titolo": "Anna Karenina",
+        "autore": "Lev Tolstoj",
+        "anno_pubblicazione": 1878,
+        "disponibile": true
+    }
+},
+{
+    "model": "catalogo.prodotto",
+    "pk": 18,
+    "fields": {
+        "titolo": "Il Grande Gatsby",
+        "autore": "F. Scott Fitzgerald",
+        "anno_pubblicazione": 1925,
+        "disponibile": true
+    }
+},
+{
+    "model": "catalogo.prodotto",
+    "pk": 19,
+    "fields": {
+        "titolo": "Cent'anni di solitudine",
+        "autore": "Gabriel García Márquez",
+        "anno_pubblicazione": 1967,
+        "disponibile": true
+    }
+},
+{
+    "model": "catalogo.prodotto",
+    "pk": 20,
+    "fields": {
+        "titolo": "Il vecchio e il mare",
+        "autore": "Ernest Hemingway",
+        "anno_pubblicazione": 1952,
+        "disponibile": true
+    }
+},
+{
+    "model": "catalogo.prodotto",
+    "pk": 21,
+    "fields": {
+        "titolo": "Lolita",
+        "autore": "Vladimir Nabokov",
+        "anno_pubblicazione": 1955,
+        "disponibile": true
+    }
+},
+{
+    "model": "catalogo.prodotto",
+    "pk": 22,
+    "fields": {
+        "titolo": "Il Conte di Montecristo",
+        "autore": "Alexandre Dumas",
+        "anno_pubblicazione": 1844,
+        "disponibile": true
+    }
+},
+{
+    "model": "catalogo.prodotto",
+    "pk": 23,
+    "fields": {
+        "titolo": "Orgoglio e pregiudizio",
+        "autore": "Jane Austen",
+        "anno_pubblicazione": 1813,
+        "disponibile": true
+    }
+},
+{
+    "model": "catalogo.prodotto",
+    "pk": 24,
+    "fields": {
+        "titolo": "Moby Dick",
+        "autore": "Herman Melville",
+        "anno_pubblicazione": 1851,
+        "disponibile": true
+    }
+},
+{
+    "model": "catalogo.prodotto",
+    "pk": 25,
+    "fields": {
+        "titolo": "Il ritratto di Dorian Gray",
+        "autore": "Oscar Wilde",
+        "anno_pubblicazione": 1890,
+        "disponibile": true
+    }
+},
+{
+    "model": "catalogo.prodotto",
+    "pk": 26,
+    "fields": {
+        "titolo": "Sulla strada",
+        "autore": "Jack Kerouac",
+        "anno_pubblicazione": 1957,
+        "disponibile": true
+    }
+},
+{
+    "model": "catalogo.prodotto",
+    "pk": 27,
+    "fields": {
+        "titolo": "L'Alchimista",
+        "autore": "Paulo Coelho",
+        "anno_pubblicazione": 1988,
+        "disponibile": true
+    }
+},
+{
+    "model": "catalogo.prodotto",
+    "pk": 28,
+    "fields": {
+        "titolo": "Harry Potter e la pietra filosofale",
+        "autore": "J.K. Rowling",
+        "anno_pubblicazione": 1997,
+        "disponibile": true
+    }
+},
+{
+    "model": "catalogo.prodotto",
+    "pk": 29,
+    "fields": {
+        "titolo": "Il codice da Vinci",
+        "autore": "Dan Brown",
+        "anno_pubblicazione": 2003,
+        "disponibile": true
+    }
+},
+{
+    "model": "catalogo.prodotto",
+    "pk": 30,
+    "fields": {
+        "titolo": "Neuromante",
+        "autore": "William Gibson",
+        "anno_pubblicazione": 1984,
+        "disponibile": true
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 1,
+    "fields": {
+        "nome": "Smartphone Galaxy S24",
+        "descrizione": "Smartphone Android con display AMOLED 6.8 pollici, fotocamera 200MP",
+        "prezzo": "899.99",
+        "categoria": "Elettronica",
+        "quantita": 25
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 2,
+    "fields": {
+        "nome": "Laptop Pro 15",
+        "descrizione": "Laptop con processore Intel i7, 16GB RAM, SSD 512GB",
+        "prezzo": "1299.50",
+        "categoria": "Informatica",
+        "quantita": 15
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 3,
+    "fields": {
+        "nome": "Cuffie Wireless Premium",
+        "descrizione": "Cuffie Bluetooth con cancellazione del rumore, autonomia 30 ore",
+        "prezzo": "149.90",
+        "categoria": "Audio",
+        "quantita": 45
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 4,
+    "fields": {
+        "nome": "T-shirt in Cotone",
+        "descrizione": "T-shirt in cotone biologico 100%, taglie S-M-L-XL",
+        "prezzo": "24.99",
+        "categoria": "Abbigliamento",
+        "quantita": 100
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 5,
+    "fields": {
+        "nome": "Libro Cucina Italiana",
+        "descrizione": "Ricette tradizionali italiane, 350 pagine",
+        "prezzo": "35.00",
+        "categoria": "Libri",
+        "quantita": 30
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 6,
+    "fields": {
+        "nome": "Bicicletta Mountain Bike",
+        "descrizione": "Bicicletta da montagna con 21 marce, sospensioni anteriori",
+        "prezzo": "450.00",
+        "categoria": "Sport",
+        "quantita": 8
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 7,
+    "fields": {
+        "nome": "Orologio Smart Watch",
+        "descrizione": "Smartwatch con GPS, monitoraggio cardiaco, resistente all'acqua",
+        "prezzo": "199.99",
+        "categoria": "Elettronica",
+        "quantita": 35
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 8,
+    "fields": {
+        "nome": "Zaino da Viaggio",
+        "descrizione": "Zaino impermeabile 40 litri, con portatile",
+        "prezzo": "65.50",
+        "categoria": "Accessori",
+        "quantita": 28
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 9,
+    "fields": {
+        "nome": "Set Pentole Antiaderenti",
+        "descrizione": "Set da 5 pentole con rivestimento antiaderente",
+        "prezzo": "120.00",
+        "categoria": "Cucina",
+        "quantita": 12
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 10,
+    "fields": {
+        "nome": "Mouse Wireless",
+        "descrizione": "Mouse ergonomico wireless, 3 pulsanti, sensore 1600 DPI",
+        "prezzo": "29.99",
+        "categoria": "Informatica",
+        "quantita": 60
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 11,
+    "fields": {
+        "nome": "Frigorifero Smart",
+        "descrizione": "Frigorifero con connessione WiFi, display touch",
+        "prezzo": "1499.00",
+        "categoria": "Elettrodomestici",
+        "quantita": 5
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 12,
+    "fields": {
+        "nome": "Jeans Blue",
+        "descrizione": "Jeans in denim, taglia regolare, blu scuro",
+        "prezzo": "59.90",
+        "categoria": "Abbigliamento",
+        "quantita": 50
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 13,
+    "fields": {
+        "nome": "Tavola da Surf",
+        "descrizione": "Tavola da surf in fibra di vetro, 6 piedi",
+        "prezzo": "350.00",
+        "categoria": "Sport",
+        "quantita": 7
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 14,
+    "fields": {
+        "nome": "Stampante Laser",
+        "descrizione": "Stampante laser monocromatica, WiFi, stampa fronte/retro",
+        "prezzo": "189.00",
+        "categoria": "Informatica",
+        "quantita": 18
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 15,
+    "fields": {
+        "nome": "Olio d'Oliva Extra Vergine",
+        "descrizione": "Olio d'oliva biologico, 1 litro",
+        "prezzo": "15.50",
+        "categoria": "Alimentari",
+        "quantita": 80
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 16,
+    "fields": {
+        "nome": "Sedia da Ufficio",
+        "descrizione": "Sedia ergonomica con regolazione dell'altezza",
+        "prezzo": "220.00",
+        "categoria": "Arredamento",
+        "quantita": 14
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 17,
+    "fields": {
+        "nome": "Smart TV 55 pollici",
+        "descrizione": "TV LED 4K, HDR, Smart TV con Chromecast integrato",
+        "prezzo": "649.00",
+        "categoria": "Elettronica",
+        "quantita": 10
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 18,
+    "fields": {
+        "nome": "Borsa in Pelle",
+        "descrizione": "Borsa in pelle vera, design elegante",
+        "prezzo": "89.00",
+        "categoria": "Accessori",
+        "quantita": 22
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 19,
+    "fields": {
+        "nome": "Tapeta Yoga",
+        "descrizione": "Tapeta antiscivolo per yoga, 6mm spessore",
+        "prezzo": "34.99",
+        "categoria": "Sport",
+        "quantita": 40
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 20,
+    "fields": {
+        "nome": "Microonde 25L",
+        "descrizione": "Forno a microonde 25 litri, 900W",
+        "prezzo": "199.00",
+        "categoria": "Elettrodomestici",
+        "quantita": 9
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 21,
+    "fields": {
+        "nome": "Camicia Elegante",
+        "descrizione": "Camicia in cotone, colore bianco, taglie varie",
+        "prezzo": "49.99",
+        "categoria": "Abbigliamento",
+        "quantita": 35
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 22,
+    "fields": {
+        "nome": "Vino Rosso Barolo",
+        "descrizione": "Barolo DOCG, annata 2018, 0.75L",
+        "prezzo": "45.00",
+        "categoria": "Alimentari",
+        "quantita": 55
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 23,
+    "fields": {
+        "nome": "Tablet 10 pollici",
+        "descrizione": "Tablet Android, 10 pollici, 64GB, lettore di impronte",
+        "prezzo": "329.00",
+        "categoria": "Informatica",
+        "quantita": 20
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 24,
+    "fields": {
+        "nome": "Forno Elettrico",
+        "descrizione": "Forno elettrico 60 litri, 8 funzioni",
+        "prezzo": "450.00",
+        "categoria": "Elettrodomestici",
+        "quantita": 6
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 25,
+    "fields": {
+        "nome": "Guanti da Giardinaggio",
+        "descrizione": "Guanti in lattice, resistenti alle spine",
+        "prezzo": "12.99",
+        "categoria": "Giardinaggio",
+        "quantita": 70
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 26,
+    "fields": {
+        "nome": "Power Bank 20000mAh",
+        "descrizione": "Batteria esterna con ricarica rapida, 2 porte USB",
+        "prezzo": "49.90",
+        "categoria": "Elettronica",
+        "quantita": 32
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 27,
+    "fields": {
+        "nome": "Tappeto Orientale",
+        "descrizione": "Tappeto orientale, 140x200 cm, design tradizionale",
+        "prezzo": "275.00",
+        "categoria": "Arredamento",
+        "quantita": 8
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 28,
+    "fields": {
+        "nome": "Monitor 27 pollici",
+        "descrizione": "Monitor 4K, IPS, 60Hz, con supporto VESA",
+        "prezzo": "399.00",
+        "categoria": "Informatica",
+        "quantita": 13
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 29,
+    "fields": {
+        "nome": "Rasoio Elettrico",
+        "descrizione": "Rasoio a testine rotanti, impermeabile, ricaricabile",
+        "prezzo": "129.99",
+        "categoria": "Cura Personale",
+        "quantita": 25
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 30,
+    "fields": {
+        "nome": "Macchina per Caffè",
+        "descrizione": "Macchina espresso automatica, con macinacaffè integrato",
+        "prezzo": "799.00",
+        "categoria": "Cucina",
+        "quantita": 7
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 31,
+    "fields": {
+        "nome": "Gonna in Lino",
+        "descrizione": "Gonna in lino, colore beige, taglia M",
+        "prezzo": "44.00",
+        "categoria": "Abbigliamento",
+        "quantita": 24
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 32,
+    "fields": {
+        "nome": "Set Penne Calligrafiche",
+        "descrizione": "Set da 8 penne calligrafiche, punte diverse",
+        "prezzo": "18.50",
+        "categoria": "Cancelleria",
+        "quantita": 65
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 33,
+    "fields": {
+        "nome": "Pattini a Rotelle",
+        "descrizione": "Pattini regolabili, per bambini e adulti",
+        "prezzo": "89.99",
+        "categoria": "Sport",
+        "quantita": 12
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 34,
+    "fields": {
+        "nome": "Frullatore",
+        "descrizione": "Frullatore 1200W, 3 velocità, 2 litri",
+        "prezzo": "79.00",
+        "categoria": "Cucina",
+        "quantita": 18
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 35,
+    "fields": {
+        "nome": "Casco da Bicicletta",
+        "descrizione": "Casco leggero in policarbonato, regolabile",
+        "prezzo": "45.00",
+        "categoria": "Sport",
+        "quantita": 22
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 36,
+    "fields": {
+        "nome": "Caricatore Wireless",
+        "descrizione": "Base di ricarica wireless per smartphone",
+        "prezzo": "24.99",
+        "categoria": "Elettronica",
+        "quantita": 48
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 37,
+    "fields": {
+        "nome": "Piatto da Portata",
+        "descrizione": "Piatto da portata in ceramica, 32 cm",
+        "prezzo": "28.00",
+        "categoria": "Cucina",
+        "quantita": 30
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 38,
+    "fields": {
+        "nome": "Pantaloni Sportivi",
+        "descrizione": "Pantaloni in tessuto tecnico, elasticizzati",
+        "prezzo": "39.90",
+        "categoria": "Abbigliamento",
+        "quantita": 40
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 39,
+    "fields": {
+        "nome": "Libro per Bambini",
+        "descrizione": "Libro illustrato per bambini, 50 pagine",
+        "prezzo": "15.00",
+        "categoria": "Libri",
+        "quantita": 45
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 40,
+    "fields": {
+        "nome": "Vaporiera Elettrica",
+        "descrizione": "Vaporiera 3 livelli, 800W",
+        "prezzo": "69.90",
+        "categoria": "Cucina",
+        "quantita": 15
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 41,
+    "fields": {
+        "nome": "Cuffie da Gaming",
+        "descrizione": "Cuffie con microfono, surround 7.1, RGB LED",
+        "prezzo": "79.99",
+        "categoria": "Audio",
+        "quantita": 28
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 42,
+    "fields": {
+        "nome": "Tavolo da Giardino",
+        "descrizione": "Tavolo pieghevole in alluminio, 70x120 cm",
+        "prezzo": "159.00",
+        "categoria": "Giardinaggio",
+        "quantita": 11
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 43,
+    "fields": {
+        "nome": "Scanner 3D",
+        "descrizione": "Scanner 3D portatile, risoluzione 0.1mm",
+        "prezzo": "499.00",
+        "categoria": "Informatica",
+        "quantita": 4
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 44,
+    "fields": {
+        "nome": "Calzini in Lana",
+        "descrizione": "Calzini termici in lana, confezione 3 paia",
+        "prezzo": "19.99",
+        "categoria": "Abbigliamento",
+        "quantita": 60
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 45,
+    "fields": {
+        "nome": "Mascara per Ciglia",
+        "descrizione": "Mascara volumizzante, impermeabile",
+        "prezzo": "12.50",
+        "categoria": "Cosmetica",
+        "quantita": 55
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 46,
+    "fields": {
+        "nome": "Soundbar",
+        "descrizione": "Soundbar 2.1 canali, 120W, subwoofer incluso",
+        "prezzo": "299.00",
+        "categoria": "Audio",
+        "quantita": 10
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 47,
+    "fields": {
+        "nome": "Bicchiere da Vino",
+        "descrizione": "Set 6 bicchieri da vino in cristallo",
+        "prezzo": "35.00",
+        "categoria": "Cucina",
+        "quantita": 32
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 48,
+    "fields": {
+        "nome": "Borsa Termica",
+        "descrizione": "Borsa termica per alimenti, 15 litri",
+        "prezzo": "22.99",
+        "categoria": "Accessori",
+        "quantita": 38
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 49,
+    "fields": {
+        "nome": "Drone con Telecamera",
+        "descrizione": "Drone 4K, autonomia 30 minuti, raggio 2km",
+        "prezzo": "599.00",
+        "categoria": "Elettronica",
+        "quantita": 6
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 50,
+    "fields": {
+        "nome": "Coperta in Pile",
+        "descrizione": "Coperta morbida in pile, 150x200 cm",
+        "prezzo": "32.00",
+        "categoria": "Casa",
+        "quantita": 42
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 51,
+    "fields": {
+        "nome": "Set Coltelli Cucina",
+        "descrizione": "Set 5 coltelli professionali, in acciaio inox",
+        "prezzo": "89.90",
+        "categoria": "Cucina",
+        "quantita": 16
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 52,
+    "fields": {
+        "nome": "Cintura in Pelle",
+        "descrizione": "Cintura in pelle scamosciata, fibbia in acciaio",
+        "prezzo": "39.00",
+        "categoria": "Abbigliamento",
+        "quantita": 34
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 53,
+    "fields": {
+        "nome": "Lampada da Scrivania",
+        "descrizione": "Lampada LED, luce regolabile, design moderno",
+        "prezzo": "54.99",
+        "categoria": "Arredamento",
+        "quantita": 20
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 54,
+    "fields": {
+        "nome": "Telo Mare",
+        "descrizione": "Telo da mare in microfibra, 80x160 cm",
+        "prezzo": "18.90",
+        "categoria": "Accessori",
+        "quantita": 75
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 55,
+    "fields": {
+        "nome": "Macchina Fotografica",
+        "descrizione": "Fotocamera mirrorless, sensore APS-C, 24MP",
+        "prezzo": "849.00",
+        "categoria": "Elettronica",
+        "quantita": 9
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 56,
+    "fields": {
+        "nome": "Nutella 750g",
+        "descrizione": "Crema spalmabile alle nocciole, vasetto 750g",
+        "prezzo": "6.50",
+        "categoria": "Alimentari",
+        "quantita": 100
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 57,
+    "fields": {
+        "nome": "Sega Circolare",
+        "descrizione": "Sega circolare 2000W, diametro lama 230mm",
+        "prezzo": "189.00",
+        "categoria": "Fai-da-te",
+        "quantita": 8
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 58,
+    "fields": {
+        "nome": "Orecchini in Argento",
+        "descrizione": "Orecchini in argento 925, con pietra d'azzurro",
+        "prezzo": "49.00",
+        "categoria": "Gioielli",
+        "quantita": 18
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 59,
+    "fields": {
+        "nome": "Sapone Artigianale",
+        "descrizione": "Sapone all'olio d'oliva, profumazione lavanda",
+        "prezzo": "8.99",
+        "categoria": "Cosmetica",
+        "quantita": 85
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 60,
+    "fields": {
+        "nome": "Forno a Microonde",
+        "descrizione": "Forno microonde 20L, 700W, con grill",
+        "prezzo": "159.00",
+        "categoria": "Elettrodomestici",
+        "quantita": 12
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 61,
+    "fields": {
+        "nome": "Sciarpa in Seta",
+        "descrizione": "Sciarpa di seta, fantasia floreale",
+        "prezzo": "29.90",
+        "categoria": "Abbigliamento",
+        "quantita": 25
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 62,
+    "fields": {
+        "nome": "Hoverboard",
+        "descrizione": "Hoverboard con luci LED, 6.5 pollici",
+        "prezzo": "220.00",
+        "categoria": "Sport",
+        "quantita": 8
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 63,
+    "fields": {
+        "nome": "Batteria Esterna",
+        "descrizione": "Batteria portatile 10000mAh, con USB-C",
+        "prezzo": "29.99",
+        "categoria": "Elettronica",
+        "quantita": 52
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 64,
+    "fields": {
+        "nome": "Bistecchiera Grill",
+        "descrizione": "Bistecchiera antiaderente, diametro 28cm",
+        "prezzo": "39.00",
+        "categoria": "Cucina",
+        "quantita": 22
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 65,
+    "fields": {
+        "nome": "Astuccio Scuola",
+        "descrizione": "Astuccio con 30 pezzi: matite, penne, pastelli",
+        "prezzo": "14.99",
+        "categoria": "Cancelleria",
+        "quantita": 48
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 66,
+    "fields": {
+        "nome": "Tappetino Mouse",
+        "descrizione": "Tappetino mouse con base anti-scivolo, 80x30cm",
+        "prezzo": "12.00",
+        "categoria": "Informatica",
+        "quantita": 56
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 67,
+    "fields": {
+        "nome": "Scarpe Running",
+        "descrizione": "Scarpe da running leggere, ammortizzazione EVA",
+        "prezzo": "79.00",
+        "categoria": "Abbigliamento",
+        "quantita": 30
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 68,
+    "fields": {
+        "nome": "Sveglia Digitale",
+        "descrizione": "Sveglia con proiettore, portata USB",
+        "prezzo": "24.00",
+        "categoria": "Casa",
+        "quantita": 36
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 69,
+    "fields": {
+        "nome": "Set Spazzole",
+        "descrizione": "Set spazzole per capelli, 3 pezzi",
+        "prezzo": "16.50",
+        "categoria": "Cura Personale",
+        "quantita": 42
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 70,
+    "fields": {
+        "nome": "Bilancia da Cucina",
+        "descrizione": "Bilancia digitale, capacità 5kg, precisione 1g",
+        "prezzo": "19.99",
+        "categoria": "Cucina",
+        "quantita": 28
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 71,
+    "fields": {
+        "nome": "Fazzoletto di Seta",
+        "descrizione": "Fazzoletto in seta, quadrato 50x50cm",
+        "prezzo": "15.00",
+        "categoria": "Accessori",
+        "quantita": 44
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 72,
+    "fields": {
+        "nome": "Racchetta Tennis",
+        "descrizione": "Racchetta da tennis, peso 270g, potenziata",
+        "prezzo": "130.00",
+        "categoria": "Sport",
+        "quantita": 14
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 73,
+    "fields": {
+        "nome": "Sistema di Allarme",
+        "descrizione": "Kit allarme wireless, sensori di movimento e porte",
+        "prezzo": "249.00",
+        "categoria": "Sicurezza",
+        "quantita": 7
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 74,
+    "fields": {
+        "nome": "Portafoglio Uomo",
+        "descrizione": "Portafoglio in pelle, 8 scomparti",
+        "prezzo": "35.00",
+        "categoria": "Accessori",
+        "quantita": 28
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 75,
+    "fields": {
+        "nome": "Pasta di Grano Duro",
+        "descrizione": "Spaghetti di grano duro, 500g",
+        "prezzo": "2.50",
+        "categoria": "Alimentari",
+        "quantita": 150
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 76,
+    "fields": {
+        "nome": "Faretto da Attrezzi",
+        "descrizione": "Faretto LED 1000W, resistente all'acqua",
+        "prezzo": "44.99",
+        "categoria": "Fai-da-te",
+        "quantita": 18
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 77,
+    "fields": {
+        "nome": "Collana Pearl",
+        "descrizione": "Collana di perle artificiali, 45cm",
+        "prezzo": "29.00",
+        "categoria": "Gioielli",
+        "quantita": 12
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 78,
+    "fields": {
+        "nome": "Tacchi a Spillo",
+        "descrizione": "Scarpe tacco 10cm, in pelle, colore nero",
+        "prezzo": "89.00",
+        "categoria": "Abbigliamento",
+        "quantita": 16
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 79,
+    "fields": {
+        "nome": "Ventilatore a Torre",
+        "descrizione": "Ventilatore a torre, 3 velocità, oscillazione automatica",
+        "prezzo": "79.90",
+        "categoria": "Casa",
+        "quantita": 15
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 80,
+    "fields": {
+        "nome": "Cucchiaio in Legno",
+        "descrizione": "Set 3 cucchiai in legno d'olivo",
+        "prezzo": "12.50",
+        "categoria": "Cucina",
+        "quantita": 55
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 81,
+    "fields": {
+        "nome": "Occhiali da Sole",
+        "descrizione": "Occhiali polarizzati, protezione UV400",
+        "prezzo": "49.99",
+        "categoria": "Accessori",
+        "quantita": 32
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 82,
+    "fields": {
+        "nome": "Albero di Natale",
+        "descrizione": "Albero artificiale 180cm, con 300 LED",
+        "prezzo": "89.00",
+        "categoria": "Decorazione",
+        "quantita": 12
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 83,
+    "fields": {
+        "nome": "Tappetino da Yoga",
+        "descrizione": "Tappetino in PVC, antiscivolo, 5mm",
+        "prezzo": "29.00",
+        "categoria": "Sport",
+        "quantita": 38
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 84,
+    "fields": {
+        "nome": "Teiera in Ghisa",
+        "descrizione": "Teiera giapponese in ghisa, 0.8 litri",
+        "prezzo": "65.00",
+        "categoria": "Cucina",
+        "quantita": 10
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 85,
+    "fields": {
+        "nome": "Puzzle 1000 Pezzi",
+        "descrizione": "Puzzle con immagini di paesaggi, 1000 pezzi",
+        "prezzo": "18.00",
+        "categoria": "Giochi",
+        "quantita": 24
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 86,
+    "fields": {
+        "nome": "Saponetta Glicerina",
+        "descrizione": "Saponetta trasparente alla glicerina, 100g",
+        "prezzo": "5.50",
+        "categoria": "Cosmetica",
+        "quantita": 70
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 87,
+    "fields": {
+        "nome": "Carta da Parati",
+        "descrizione": "Carta da parati floreale, rotolo 10m x 53cm",
+        "prezzo": "28.90",
+        "categoria": "Arredamento",
+        "quantita": 20
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 88,
+    "fields": {
+        "nome": "Pendente in Oro",
+        "descrizione": "Pendente in oro 18 carati, forma a cuore",
+        "prezzo": "159.00",
+        "categoria": "Gioielli",
+        "quantita": 6
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 89,
+    "fields": {
+        "nome": "Tovaglia Ricamata",
+        "descrizione": "Tovaglia in lino, 180x180cm, ricamata a mano",
+        "prezzo": "45.00",
+        "categoria": "Casa",
+        "quantita": 14
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 90,
+    "fields": {
+        "nome": "Macchina da Cucire",
+        "descrizione": "Macchina da cucire, 15 programmi, tessuti leggeri e pesanti",
+        "prezzo": "399.00",
+        "categoria": "Fai-da-te",
+        "quantita": 5
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 91,
+    "fields": {
+        "nome": "Gel per Capelli",
+        "descrizione": "Gel fissante, tenuta forte, 200ml",
+        "prezzo": "7.99",
+        "categoria": "Cura Personale",
+        "quantita": 58
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 92,
+    "fields": {
+        "nome": "Set Valigie",
+        "descrizione": "Set 3 valigie in polipropilene, dimensioni S-M-L",
+        "prezzo": "199.00",
+        "categoria": "Accessori",
+        "quantita": 9
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 93,
+    "fields": {
+        "nome": "Lavatrice 9kg",
+        "descrizione": "Lavatrice a carica anteriore, 1400rpm, classe A+++",
+        "prezzo": "649.00",
+        "categoria": "Elettrodomestici",
+        "quantita": 6
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 94,
+    "fields": {
+        "nome": "Reggiseno Sportivo",
+        "descrizione": "Reggiseno sportivo, tessuto traspirante, taglie S-XL",
+        "prezzo": "29.99",
+        "categoria": "Abbigliamento",
+        "quantita": 36
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 95,
+    "fields": {
+        "nome": "Bastone da Trekking",
+        "descrizione": "Bastone regolabile in alluminio, 110-140cm",
+        "prezzo": "34.50",
+        "categoria": "Sport",
+        "quantita": 20
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 96,
+    "fields": {
+        "nome": "Set Cuscini Decorativi",
+        "descrizione": "Set 2 cuscini 45x45cm, con foderina removibile",
+        "prezzo": "39.00",
+        "categoria": "Arredamento",
+        "quantita": 22
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 97,
+    "fields": {
+        "nome": "Moka Italiana",
+        "descrizione": "Moka 3 tazze, in alluminio",
+        "prezzo": "28.00",
+        "categoria": "Cucina",
+        "quantita": 44
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 98,
+    "fields": {
+        "nome": "Chiavetta USB 128GB",
+        "descrizione": "Chiavetta USB 3.0, 128GB, in metallo",
+        "prezzo": "19.99",
+        "categoria": "Informatica",
+        "quantita": 60
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 99,
+    "fields": {
+        "nome": "Panca Pesi",
+        "descrizione": "Panca regolabile per allenamento, supporto 300kg",
+        "prezzo": "279.00",
+        "categoria": "Sport",
+        "quantita": 7
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 100,
+    "fields": {
+        "nome": "Bomboniera",
+        "descrizione": "Bomboniera in ceramica, 5x5cm, confezione 10",
+        "prezzo": "22.00",
+        "categoria": "Casa",
+        "quantita": 32
+    }
+},
+{
+    "model": "catalogo.prodotto_new",
+    "pk": 101,
+    "fields": {
+        "nome": "Guanti da Moto",
+        "descrizione": "Guanti moto in pelle, protezioni in carbonio",
+        "prezzo": "69.99",
+        "categoria": "Motociclismo",
+        "quantita": 18
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 1,
+    "fields": {
+        "cliente": 1,
+        "prodotto": 1,
+        "quantita": 2,
+        "totale": "1799.98",
+        "data_ordine": "2026-01-15T09:30:00Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 2,
+    "fields": {
+        "cliente": 2,
+        "prodotto": 3,
+        "quantita": 1,
+        "totale": "149.90",
+        "data_ordine": "2026-01-18T13:20:00Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 3,
+    "fields": {
+        "cliente": 3,
+        "prodotto": 5,
+        "quantita": 3,
+        "totale": "105.00",
+        "data_ordine": "2026-01-20T08:15:00Z",
+        "stato": "consegnato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 4,
+    "fields": {
+        "cliente": 4,
+        "prodotto": 7,
+        "quantita": 1,
+        "totale": "199.99",
+        "data_ordine": "2026-01-22T15:45:00Z",
+        "stato": "consegnato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 5,
+    "fields": {
+        "cliente": 5,
+        "prodotto": 10,
+        "quantita": 2,
+        "totale": "59.98",
+        "data_ordine": "2026-01-25T10:00:00Z",
+        "stato": "in_elaborazione"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 6,
+    "fields": {
+        "cliente": 6,
+        "prodotto": 12,
+        "quantita": 3,
+        "totale": "179.70",
+        "data_ordine": "2026-01-27T12:30:00Z",
+        "stato": "in_elaborazione"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 7,
+    "fields": {
+        "cliente": 7,
+        "prodotto": 15,
+        "quantita": 5,
+        "totale": "77.50",
+        "data_ordine": "2026-02-01T09:00:00Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 8,
+    "fields": {
+        "cliente": 8,
+        "prodotto": 17,
+        "quantita": 1,
+        "totale": "649.00",
+        "data_ordine": "2026-02-03T14:20:00Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 9,
+    "fields": {
+        "cliente": 9,
+        "prodotto": 20,
+        "quantita": 1,
+        "totale": "199.00",
+        "data_ordine": "2026-02-05T08:45:00Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 10,
+    "fields": {
+        "cliente": 10,
+        "prodotto": 22,
+        "quantita": 6,
+        "totale": "270.00",
+        "data_ordine": "2026-02-08T16:30:00Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 11,
+    "fields": {
+        "cliente": 11,
+        "prodotto": 25,
+        "quantita": 4,
+        "totale": "51.96",
+        "data_ordine": "2026-02-10T07:15:00Z",
+        "stato": "in_elaborazione"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 12,
+    "fields": {
+        "cliente": 12,
+        "prodotto": 28,
+        "quantita": 2,
+        "totale": "798.00",
+        "data_ordine": "2026-02-12T13:00:00Z",
+        "stato": "in_elaborazione"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 13,
+    "fields": {
+        "cliente": 13,
+        "prodotto": 30,
+        "quantita": 1,
+        "totale": "799.00",
+        "data_ordine": "2026-02-15T10:30:00Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 14,
+    "fields": {
+        "cliente": 14,
+        "prodotto": 33,
+        "quantita": 2,
+        "totale": "179.98",
+        "data_ordine": "2026-02-18T15:00:00Z",
+        "stato": "consegnato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 15,
+    "fields": {
+        "cliente": 15,
+        "prodotto": 36,
+        "quantita": 3,
+        "totale": "74.97",
+        "data_ordine": "2026-02-20T09:45:00Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 16,
+    "fields": {
+        "cliente": 16,
+        "prodotto": 40,
+        "quantita": 1,
+        "totale": "69.90",
+        "data_ordine": "2026-02-22T12:00:00Z",
+        "stato": "in_elaborazione"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 17,
+    "fields": {
+        "cliente": 17,
+        "prodotto": 42,
+        "quantita": 1,
+        "totale": "159.00",
+        "data_ordine": "2026-02-25T08:30:00Z",
+        "stato": "in_elaborazione"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 18,
+    "fields": {
+        "cliente": 18,
+        "prodotto": 45,
+        "quantita": 5,
+        "totale": "62.50",
+        "data_ordine": "2026-02-27T14:30:00Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 19,
+    "fields": {
+        "cliente": 19,
+        "prodotto": 48,
+        "quantita": 2,
+        "totale": "45.98",
+        "data_ordine": "2026-03-01T10:15:00Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 20,
+    "fields": {
+        "cliente": 20,
+        "prodotto": 50,
+        "quantita": 1,
+        "totale": "89.90",
+        "data_ordine": "2026-03-03T13:45:00Z",
+        "stato": "in_elaborazione"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 21,
+    "fields": {
+        "cliente": 21,
+        "prodotto": 53,
+        "quantita": 4,
+        "totale": "75.60",
+        "data_ordine": "2026-03-05T09:00:00Z",
+        "stato": "consegnato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 22,
+    "fields": {
+        "cliente": 22,
+        "prodotto": 55,
+        "quantita": 10,
+        "totale": "65.00",
+        "data_ordine": "2026-03-07T15:30:00Z",
+        "stato": "consegnato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 23,
+    "fields": {
+        "cliente": 23,
+        "prodotto": 58,
+        "quantita": 2,
+        "totale": "98.00",
+        "data_ordine": "2026-03-10T08:00:00Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 24,
+    "fields": {
+        "cliente": 24,
+        "prodotto": 60,
+        "quantita": 1,
+        "totale": "159.00",
+        "data_ordine": "2026-03-12T12:30:00Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 25,
+    "fields": {
+        "cliente": 25,
+        "prodotto": 63,
+        "quantita": 3,
+        "totale": "89.97",
+        "data_ordine": "2026-03-15T09:15:00Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 26,
+    "fields": {
+        "cliente": 26,
+        "prodotto": 66,
+        "quantita": 2,
+        "totale": "158.00",
+        "data_ordine": "2026-03-17T14:00:00Z",
+        "stato": "in_elaborazione"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 27,
+    "fields": {
+        "cliente": 27,
+        "prodotto": 70,
+        "quantita": 1,
+        "totale": "130.00",
+        "data_ordine": "2026-03-20T10:45:00Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 28,
+    "fields": {
+        "cliente": 28,
+        "prodotto": 73,
+        "quantita": 20,
+        "totale": "50.00",
+        "data_ordine": "2026-03-22T08:30:00Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 29,
+    "fields": {
+        "cliente": 29,
+        "prodotto": 78,
+        "quantita": 1,
+        "totale": "89.00",
+        "data_ordine": "2026-03-25T13:00:00Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 30,
+    "fields": {
+        "cliente": 30,
+        "prodotto": 80,
+        "quantita": 4,
+        "totale": "50.00",
+        "data_ordine": "2026-03-27T15:15:00Z",
+        "stato": "consegnato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 31,
+    "fields": {
+        "cliente": 1,
+        "prodotto": 50,
+        "quantita": 3,
+        "totale": "160.00",
+        "data_ordine": "2026-05-26T07:14:29.853Z",
+        "stato": "consegnato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 32,
+    "fields": {
+        "cliente": 1,
+        "prodotto": 22,
+        "quantita": 2,
+        "totale": "135.00",
+        "data_ordine": "2026-06-19T07:14:29.853Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 33,
+    "fields": {
+        "cliente": 2,
+        "prodotto": 2,
+        "quantita": 2,
+        "totale": "6497.50",
+        "data_ordine": "2026-06-19T07:14:29.853Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 34,
+    "fields": {
+        "cliente": 2,
+        "prodotto": 88,
+        "quantita": 3,
+        "totale": "636.00",
+        "data_ordine": "2026-06-17T07:14:29.853Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 35,
+    "fields": {
+        "cliente": 2,
+        "prodotto": 75,
+        "quantita": 5,
+        "totale": "12.50",
+        "data_ordine": "2026-06-20T07:14:29.853Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 36,
+    "fields": {
+        "cliente": 2,
+        "prodotto": 69,
+        "quantita": 3,
+        "totale": "49.50",
+        "data_ordine": "2026-06-23T07:14:29.853Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 37,
+    "fields": {
+        "cliente": 2,
+        "prodotto": 53,
+        "quantita": 4,
+        "totale": "54.99",
+        "data_ordine": "2026-06-06T07:14:29.854Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 38,
+    "fields": {
+        "cliente": 3,
+        "prodotto": 23,
+        "quantita": 2,
+        "totale": "1645.00",
+        "data_ordine": "2026-05-28T07:14:29.854Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 39,
+    "fields": {
+        "cliente": 3,
+        "prodotto": 74,
+        "quantita": 4,
+        "totale": "175.00",
+        "data_ordine": "2026-06-08T07:14:29.854Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 40,
+    "fields": {
+        "cliente": 3,
+        "prodotto": 73,
+        "quantita": 5,
+        "totale": "249.00",
+        "data_ordine": "2026-06-03T07:14:29.854Z",
+        "stato": "consegnato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 41,
+    "fields": {
+        "cliente": 3,
+        "prodotto": 93,
+        "quantita": 5,
+        "totale": "1947.00",
+        "data_ordine": "2026-06-08T07:14:29.854Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 42,
+    "fields": {
+        "cliente": 4,
+        "prodotto": 32,
+        "quantita": 1,
+        "totale": "18.50",
+        "data_ordine": "2026-05-31T07:14:29.854Z",
+        "stato": "consegnato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 43,
+    "fields": {
+        "cliente": 5,
+        "prodotto": 101,
+        "quantita": 3,
+        "totale": "279.96",
+        "data_ordine": "2026-06-10T07:14:29.854Z",
+        "stato": "consegnato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 44,
+    "fields": {
+        "cliente": 5,
+        "prodotto": 68,
+        "quantita": 2,
+        "totale": "48.00",
+        "data_ordine": "2026-06-02T07:14:29.854Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 45,
+    "fields": {
+        "cliente": 5,
+        "prodotto": 61,
+        "quantita": 4,
+        "totale": "89.70",
+        "data_ordine": "2026-06-24T07:14:29.854Z",
+        "stato": "consegnato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 46,
+    "fields": {
+        "cliente": 5,
+        "prodotto": 57,
+        "quantita": 1,
+        "totale": "189.00",
+        "data_ordine": "2026-05-27T07:14:29.854Z",
+        "stato": "consegnato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 47,
+    "fields": {
+        "cliente": 5,
+        "prodotto": 89,
+        "quantita": 1,
+        "totale": "90.00",
+        "data_ordine": "2026-06-08T07:14:29.854Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 48,
+    "fields": {
+        "cliente": 6,
+        "prodotto": 72,
+        "quantita": 1,
+        "totale": "650.00",
+        "data_ordine": "2026-06-15T07:14:29.854Z",
+        "stato": "consegnato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 49,
+    "fields": {
+        "cliente": 6,
+        "prodotto": 67,
+        "quantita": 3,
+        "totale": "158.00",
+        "data_ordine": "2026-05-25T07:14:29.854Z",
+        "stato": "in_elaborazione"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 50,
+    "fields": {
+        "cliente": 7,
+        "prodotto": 52,
+        "quantita": 3,
+        "totale": "195.00",
+        "data_ordine": "2026-06-14T07:14:29.854Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 51,
+    "fields": {
+        "cliente": 7,
+        "prodotto": 57,
+        "quantita": 2,
+        "totale": "567.00",
+        "data_ordine": "2026-05-25T07:14:29.854Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 52,
+    "fields": {
+        "cliente": 7,
+        "prodotto": 75,
+        "quantita": 3,
+        "totale": "12.50",
+        "data_ordine": "2026-06-12T07:14:29.854Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 53,
+    "fields": {
+        "cliente": 8,
+        "prodotto": 73,
+        "quantita": 4,
+        "totale": "249.00",
+        "data_ordine": "2026-05-25T07:14:29.854Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 54,
+    "fields": {
+        "cliente": 8,
+        "prodotto": 2,
+        "quantita": 4,
+        "totale": "2599.00",
+        "data_ordine": "2026-06-15T07:14:29.854Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 55,
+    "fields": {
+        "cliente": 8,
+        "prodotto": 8,
+        "quantita": 1,
+        "totale": "131.00",
+        "data_ordine": "2026-06-07T07:14:29.854Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 56,
+    "fields": {
+        "cliente": 8,
+        "prodotto": 67,
+        "quantita": 4,
+        "totale": "316.00",
+        "data_ordine": "2026-05-27T07:14:29.854Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 57,
+    "fields": {
+        "cliente": 9,
+        "prodotto": 11,
+        "quantita": 4,
+        "totale": "2998.00",
+        "data_ordine": "2026-06-02T07:14:29.854Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 58,
+    "fields": {
+        "cliente": 9,
+        "prodotto": 67,
+        "quantita": 2,
+        "totale": "79.00",
+        "data_ordine": "2026-06-24T07:14:29.854Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 59,
+    "fields": {
+        "cliente": 9,
+        "prodotto": 53,
+        "quantita": 1,
+        "totale": "109.98",
+        "data_ordine": "2026-06-11T07:14:29.854Z",
+        "stato": "in_elaborazione"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 60,
+    "fields": {
+        "cliente": 9,
+        "prodotto": 64,
+        "quantita": 2,
+        "totale": "39.00",
+        "data_ordine": "2026-06-12T07:14:29.854Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 61,
+    "fields": {
+        "cliente": 9,
+        "prodotto": 57,
+        "quantita": 1,
+        "totale": "945.00",
+        "data_ordine": "2026-06-09T07:14:29.855Z",
+        "stato": "in_elaborazione"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 62,
+    "fields": {
+        "cliente": 10,
+        "prodotto": 58,
+        "quantita": 1,
+        "totale": "98.00",
+        "data_ordine": "2026-06-24T07:14:29.855Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 63,
+    "fields": {
+        "cliente": 10,
+        "prodotto": 100,
+        "quantita": 1,
+        "totale": "66.00",
+        "data_ordine": "2026-06-15T07:14:29.855Z",
+        "stato": "consegnato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 64,
+    "fields": {
+        "cliente": 10,
+        "prodotto": 30,
+        "quantita": 2,
+        "totale": "799.00",
+        "data_ordine": "2026-06-16T07:14:29.855Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 65,
+    "fields": {
+        "cliente": 10,
+        "prodotto": 57,
+        "quantita": 4,
+        "totale": "189.00",
+        "data_ordine": "2026-06-12T07:14:29.855Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 66,
+    "fields": {
+        "cliente": 11,
+        "prodotto": 21,
+        "quantita": 2,
+        "totale": "249.95",
+        "data_ordine": "2026-06-04T07:14:29.855Z",
+        "stato": "consegnato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 67,
+    "fields": {
+        "cliente": 11,
+        "prodotto": 28,
+        "quantita": 1,
+        "totale": "399.00",
+        "data_ordine": "2026-05-26T07:14:29.855Z",
+        "stato": "consegnato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 68,
+    "fields": {
+        "cliente": 11,
+        "prodotto": 26,
+        "quantita": 2,
+        "totale": "249.50",
+        "data_ordine": "2026-06-23T07:14:29.855Z",
+        "stato": "in_elaborazione"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 69,
+    "fields": {
+        "cliente": 11,
+        "prodotto": 10,
+        "quantita": 1,
+        "totale": "149.95",
+        "data_ordine": "2026-06-09T07:14:29.855Z",
+        "stato": "in_elaborazione"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 70,
+    "fields": {
+        "cliente": 12,
+        "prodotto": 81,
+        "quantita": 1,
+        "totale": "199.96",
+        "data_ordine": "2026-05-27T07:14:29.855Z",
+        "stato": "in_elaborazione"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 71,
+    "fields": {
+        "cliente": 12,
+        "prodotto": 44,
+        "quantita": 2,
+        "totale": "59.97",
+        "data_ordine": "2026-06-18T07:14:29.855Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 72,
+    "fields": {
+        "cliente": 12,
+        "prodotto": 56,
+        "quantita": 4,
+        "totale": "32.50",
+        "data_ordine": "2026-06-13T07:14:29.855Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 73,
+    "fields": {
+        "cliente": 13,
+        "prodotto": 11,
+        "quantita": 4,
+        "totale": "4497.00",
+        "data_ordine": "2026-06-20T07:14:29.855Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 74,
+    "fields": {
+        "cliente": 13,
+        "prodotto": 66,
+        "quantita": 3,
+        "totale": "12.00",
+        "data_ordine": "2026-05-30T07:14:29.855Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 75,
+    "fields": {
+        "cliente": 13,
+        "prodotto": 52,
+        "quantita": 5,
+        "totale": "39.00",
+        "data_ordine": "2026-05-30T07:14:29.855Z",
+        "stato": "in_elaborazione"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 76,
+    "fields": {
+        "cliente": 13,
+        "prodotto": 62,
+        "quantita": 2,
+        "totale": "660.00",
+        "data_ordine": "2026-06-24T07:14:29.855Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 77,
+    "fields": {
+        "cliente": 14,
+        "prodotto": 20,
+        "quantita": 2,
+        "totale": "995.00",
+        "data_ordine": "2026-06-03T07:14:29.855Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 78,
+    "fields": {
+        "cliente": 14,
+        "prodotto": 38,
+        "quantita": 3,
+        "totale": "79.80",
+        "data_ordine": "2026-06-19T07:14:29.855Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 79,
+    "fields": {
+        "cliente": 15,
+        "prodotto": 26,
+        "quantita": 5,
+        "totale": "249.50",
+        "data_ordine": "2026-06-17T07:14:29.855Z",
+        "stato": "consegnato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 80,
+    "fields": {
+        "cliente": 15,
+        "prodotto": 35,
+        "quantita": 4,
+        "totale": "45.00",
+        "data_ordine": "2026-06-02T07:14:29.855Z",
+        "stato": "consegnato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 81,
+    "fields": {
+        "cliente": 15,
+        "prodotto": 72,
+        "quantita": 2,
+        "totale": "260.00",
+        "data_ordine": "2026-06-08T07:14:29.855Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 82,
+    "fields": {
+        "cliente": 16,
+        "prodotto": 68,
+        "quantita": 5,
+        "totale": "24.00",
+        "data_ordine": "2026-05-27T07:14:29.855Z",
+        "stato": "consegnato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 83,
+    "fields": {
+        "cliente": 16,
+        "prodotto": 81,
+        "quantita": 3,
+        "totale": "199.96",
+        "data_ordine": "2026-06-06T07:14:29.855Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 84,
+    "fields": {
+        "cliente": 16,
+        "prodotto": 76,
+        "quantita": 4,
+        "totale": "179.96",
+        "data_ordine": "2026-06-01T07:14:29.856Z",
+        "stato": "consegnato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 85,
+    "fields": {
+        "cliente": 16,
+        "prodotto": 100,
+        "quantita": 2,
+        "totale": "88.00",
+        "data_ordine": "2026-05-29T07:14:29.856Z",
+        "stato": "in_elaborazione"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 86,
+    "fields": {
+        "cliente": 17,
+        "prodotto": 40,
+        "quantita": 2,
+        "totale": "209.70",
+        "data_ordine": "2026-05-31T07:14:29.856Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 87,
+    "fields": {
+        "cliente": 17,
+        "prodotto": 27,
+        "quantita": 3,
+        "totale": "1375.00",
+        "data_ordine": "2026-06-01T07:14:29.856Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 88,
+    "fields": {
+        "cliente": 17,
+        "prodotto": 14,
+        "quantita": 4,
+        "totale": "378.00",
+        "data_ordine": "2026-06-11T07:14:29.856Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 89,
+    "fields": {
+        "cliente": 18,
+        "prodotto": 53,
+        "quantita": 1,
+        "totale": "109.98",
+        "data_ordine": "2026-05-28T07:14:29.856Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 90,
+    "fields": {
+        "cliente": 18,
+        "prodotto": 62,
+        "quantita": 5,
+        "totale": "440.00",
+        "data_ordine": "2026-05-25T07:14:29.856Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 91,
+    "fields": {
+        "cliente": 19,
+        "prodotto": 37,
+        "quantita": 4,
+        "totale": "56.00",
+        "data_ordine": "2026-06-24T07:14:29.856Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 92,
+    "fields": {
+        "cliente": 19,
+        "prodotto": 73,
+        "quantita": 2,
+        "totale": "1245.00",
+        "data_ordine": "2026-06-02T07:14:29.856Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 93,
+    "fields": {
+        "cliente": 19,
+        "prodotto": 11,
+        "quantita": 5,
+        "totale": "4497.00",
+        "data_ordine": "2026-06-10T07:14:29.856Z",
+        "stato": "in_elaborazione"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 94,
+    "fields": {
+        "cliente": 19,
+        "prodotto": 26,
+        "quantita": 5,
+        "totale": "149.70",
+        "data_ordine": "2026-06-04T07:14:29.856Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 95,
+    "fields": {
+        "cliente": 20,
+        "prodotto": 77,
+        "quantita": 2,
+        "totale": "116.00",
+        "data_ordine": "2026-06-20T07:14:29.856Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 96,
+    "fields": {
+        "cliente": 21,
+        "prodotto": 75,
+        "quantita": 5,
+        "totale": "5.00",
+        "data_ordine": "2026-06-21T07:14:29.856Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 97,
+    "fields": {
+        "cliente": 21,
+        "prodotto": 18,
+        "quantita": 3,
+        "totale": "267.00",
+        "data_ordine": "2026-06-08T07:14:29.856Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 98,
+    "fields": {
+        "cliente": 22,
+        "prodotto": 46,
+        "quantita": 3,
+        "totale": "598.00",
+        "data_ordine": "2026-06-19T07:14:29.856Z",
+        "stato": "consegnato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 99,
+    "fields": {
+        "cliente": 22,
+        "prodotto": 39,
+        "quantita": 4,
+        "totale": "60.00",
+        "data_ordine": "2026-06-07T07:14:29.856Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 100,
+    "fields": {
+        "cliente": 22,
+        "prodotto": 98,
+        "quantita": 1,
+        "totale": "39.98",
+        "data_ordine": "2026-06-18T07:14:29.856Z",
+        "stato": "consegnato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 101,
+    "fields": {
+        "cliente": 22,
+        "prodotto": 93,
+        "quantita": 5,
+        "totale": "1947.00",
+        "data_ordine": "2026-06-07T07:14:29.856Z",
+        "stato": "in_elaborazione"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 102,
+    "fields": {
+        "cliente": 23,
+        "prodotto": 1,
+        "quantita": 2,
+        "totale": "1799.98",
+        "data_ordine": "2026-06-09T07:14:29.856Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 103,
+    "fields": {
+        "cliente": 23,
+        "prodotto": 75,
+        "quantita": 2,
+        "totale": "10.00",
+        "data_ordine": "2026-06-08T07:14:29.856Z",
+        "stato": "consegnato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 104,
+    "fields": {
+        "cliente": 23,
+        "prodotto": 77,
+        "quantita": 4,
+        "totale": "145.00",
+        "data_ordine": "2026-06-05T07:14:29.857Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 105,
+    "fields": {
+        "cliente": 23,
+        "prodotto": 45,
+        "quantita": 5,
+        "totale": "50.00",
+        "data_ordine": "2026-06-19T07:14:29.857Z",
+        "stato": "in_elaborazione"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 106,
+    "fields": {
+        "cliente": 23,
+        "prodotto": 62,
+        "quantita": 4,
+        "totale": "220.00",
+        "data_ordine": "2026-05-27T07:14:29.857Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 107,
+    "fields": {
+        "cliente": 24,
+        "prodotto": 69,
+        "quantita": 1,
+        "totale": "16.50",
+        "data_ordine": "2026-06-19T07:14:29.857Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 108,
+    "fields": {
+        "cliente": 24,
+        "prodotto": 37,
+        "quantita": 5,
+        "totale": "28.00",
+        "data_ordine": "2026-06-14T07:14:29.857Z",
+        "stato": "in_elaborazione"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 109,
+    "fields": {
+        "cliente": 24,
+        "prodotto": 2,
+        "quantita": 5,
+        "totale": "1299.50",
+        "data_ordine": "2026-06-15T07:14:29.857Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 110,
+    "fields": {
+        "cliente": 24,
+        "prodotto": 77,
+        "quantita": 3,
+        "totale": "29.00",
+        "data_ordine": "2026-06-16T07:14:29.857Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 111,
+    "fields": {
+        "cliente": 24,
+        "prodotto": 32,
+        "quantita": 2,
+        "totale": "37.00",
+        "data_ordine": "2026-06-22T07:14:29.857Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 112,
+    "fields": {
+        "cliente": 25,
+        "prodotto": 43,
+        "quantita": 2,
+        "totale": "1497.00",
+        "data_ordine": "2026-06-22T07:14:29.857Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 113,
+    "fields": {
+        "cliente": 25,
+        "prodotto": 5,
+        "quantita": 4,
+        "totale": "70.00",
+        "data_ordine": "2026-06-14T07:14:29.857Z",
+        "stato": "in_elaborazione"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 114,
+    "fields": {
+        "cliente": 25,
+        "prodotto": 61,
+        "quantita": 2,
+        "totale": "119.60",
+        "data_ordine": "2026-06-24T07:14:29.857Z",
+        "stato": "consegnato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 115,
+    "fields": {
+        "cliente": 26,
+        "prodotto": 19,
+        "quantita": 5,
+        "totale": "174.95",
+        "data_ordine": "2026-05-30T07:14:29.857Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 116,
+    "fields": {
+        "cliente": 26,
+        "prodotto": 73,
+        "quantita": 1,
+        "totale": "498.00",
+        "data_ordine": "2026-05-29T07:14:29.857Z",
+        "stato": "in_elaborazione"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 117,
+    "fields": {
+        "cliente": 27,
+        "prodotto": 64,
+        "quantita": 3,
+        "totale": "39.00",
+        "data_ordine": "2026-06-14T07:14:29.857Z",
+        "stato": "in_elaborazione"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 118,
+    "fields": {
+        "cliente": 27,
+        "prodotto": 53,
+        "quantita": 3,
+        "totale": "54.99",
+        "data_ordine": "2026-05-29T07:14:29.857Z",
+        "stato": "cancellato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 119,
+    "fields": {
+        "cliente": 28,
+        "prodotto": 39,
+        "quantita": 2,
+        "totale": "45.00",
+        "data_ordine": "2026-06-15T07:14:29.857Z",
+        "stato": "in_elaborazione"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 120,
+    "fields": {
+        "cliente": 28,
+        "prodotto": 10,
+        "quantita": 2,
+        "totale": "59.98",
+        "data_ordine": "2026-06-19T07:14:29.857Z",
+        "stato": "spedito"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 121,
+    "fields": {
+        "cliente": 28,
+        "prodotto": 70,
+        "quantita": 4,
+        "totale": "59.97",
+        "data_ordine": "2026-05-30T07:14:29.858Z",
+        "stato": "consegnato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 122,
+    "fields": {
+        "cliente": 28,
+        "prodotto": 72,
+        "quantita": 3,
+        "totale": "520.00",
+        "data_ordine": "2026-06-23T07:14:29.858Z",
+        "stato": "in_elaborazione"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 123,
+    "fields": {
+        "cliente": 29,
+        "prodotto": 31,
+        "quantita": 3,
+        "totale": "176.00",
+        "data_ordine": "2026-06-19T07:14:29.858Z",
+        "stato": "in_elaborazione"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 124,
+    "fields": {
+        "cliente": 29,
+        "prodotto": 90,
+        "quantita": 1,
+        "totale": "798.00",
+        "data_ordine": "2026-06-13T07:14:29.858Z",
+        "stato": "in_elaborazione"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 125,
+    "fields": {
+        "cliente": 29,
+        "prodotto": 36,
+        "quantita": 5,
+        "totale": "99.96",
+        "data_ordine": "2026-05-26T07:14:29.858Z",
+        "stato": "consegnato"
+    }
+},
+{
+    "model": "catalogo.ordine",
+    "pk": 126,
+    "fields": {
+        "cliente": 30,
+        "prodotto": 101,
+        "quantita": 5,
+        "totale": "349.95",
+        "data_ordine": "2026-05-30T07:14:29.858Z",
+        "stato": "in_elaborazione"
+    }
+},
+{
+    "model": "catalogo.cliente",
+    "pk": 1,
+    "fields": {
+        "nome": "Mario",
+        "cognome": "Rossi",
+        "email": "mario.rossi@email.com",
+        "telefono": "+39 333 1234567",
+        "indirizzo": "Via Roma 1, Milano"
+    }
+},
+{
+    "model": "catalogo.cliente",
+    "pk": 2,
+    "fields": {
+        "nome": "Anna",
+        "cognome": "Bianchi",
+        "email": "anna.bianchi@email.com",
+        "telefono": "+39 333 2345678",
+        "indirizzo": "Via Venezia 2, Roma"
+    }
+},
+{
+    "model": "catalogo.cliente",
+    "pk": 3,
+    "fields": {
+        "nome": "Luca",
+        "cognome": "Verdi",
+        "email": "luca.verdi@email.com",
+        "telefono": "+39 333 3456789",
+        "indirizzo": "Via Firenze 3, Napoli"
+    }
+},
+{
+    "model": "catalogo.cliente",
+    "pk": 4,
+    "fields": {
+        "nome": "Giulia",
+        "cognome": "Neri",
+        "email": "giulia.neri@email.com",
+        "telefono": "+39 333 4567890",
+        "indirizzo": "Via Torino 4, Torino"
+    }
+},
+{
+    "model": "catalogo.cliente",
+    "pk": 5,
+    "fields": {
+        "nome": "Marco",
+        "cognome": "Gialli",
+        "email": "marco.gialli@email.com",
+        "telefono": "+39 333 5678901",
+        "indirizzo": "Via Genova 5, Palermo"
+    }
+},
+{
+    "model": "catalogo.cliente",
+    "pk": 6,
+    "fields": {
+        "nome": "Laura",
+        "cognome": "Ferrari",
+        "email": "laura.ferrari@email.com",
+        "telefono": "+39 333 6789012",
+        "indirizzo": "Via Bologna 6, Firenze"
+    }
+},
+{
+    "model": "catalogo.cliente",
+    "pk": 7,
+    "fields": {
+        "nome": "Alessandro",
+        "cognome": "Russo",
+        "email": "alessandro.russo@email.com",
+        "telefono": "+39 333 7890123",
+        "indirizzo": "Via Pisa 7, Bologna"
+    }
+},
+{
+    "model": "catalogo.cliente",
+    "pk": 8,
+    "fields": {
+        "nome": "Francesca",
+        "cognome": "Romano",
+        "email": "francesca.romano@email.com",
+        "telefono": "+39 333 8901234",
+        "indirizzo": "Via Napoli 8, Genova"
+    }
+},
+{
+    "model": "catalogo.cliente",
+    "pk": 9,
+    "fields": {
+        "nome": "Paolo",
+        "cognome": "Colombo",
+        "email": "paolo.colombo@email.com",
+        "telefono": "+39 333 9012345",
+        "indirizzo": "Via Palermo 9, Venezia"
+    }
+},
+{
+    "model": "catalogo.cliente",
+    "pk": 10,
+    "fields": {
+        "nome": "Elena",
+        "cognome": "Ricci",
+        "email": "elena.ricci@email.com",
+        "telefono": "+39 333 0123456",
+        "indirizzo": "Via Verona 10, Verona"
+    }
+},
+{
+    "model": "catalogo.cliente",
+    "pk": 11,
+    "fields": {
+        "nome": "Simone",
+        "cognome": "Marino",
+        "email": "simone.marino@email.com",
+        "telefono": "+39 334 1234567",
+        "indirizzo": "Via Modena 11, Modena"
+    }
+},
+{
+    "model": "catalogo.cliente",
+    "pk": 12,
+    "fields": {
+        "nome": "Valentina",
+        "cognome": "Greco",
+        "email": "valentina.greco@email.com",
+        "telefono": "+39 334 2345678",
+        "indirizzo": "Via Parma 12, Parma"
+    }
+},
+{
+    "model": "catalogo.cliente",
+    "pk": 13,
+    "fields": {
+        "nome": "Andrea",
+        "cognome": "Bruno",
+        "email": "andrea.bruno@email.com",
+        "telefono": "+39 334 3456789",
+        "indirizzo": "Via Perugia 13, Perugia"
+    }
+},
+{
+    "model": "catalogo.cliente",
+    "pk": 14,
+    "fields": {
+        "nome": "Silvia",
+        "cognome": "Galli",
+        "email": "silvia.galli@email.com",
+        "telefono": "+39 334 4567890",
+        "indirizzo": "Via Ravenna 14, Ravenna"
+    }
+},
+{
+    "model": "catalogo.cliente",
+    "pk": 15,
+    "fields": {
+        "nome": "Matteo",
+        "cognome": "Conti",
+        "email": "matteo.conti@email.com",
+        "telefono": "+39 334 5678901",
+        "indirizzo": "Via Ferrara 15, Ferrara"
+    }
+},
+{
+    "model": "catalogo.cliente",
+    "pk": 16,
+    "fields": {
+        "nome": "Chiara",
+        "cognome": "De Luca",
+        "email": "chiara.deluca@email.com",
+        "telefono": "+39 334 6789012",
+        "indirizzo": "Via Rimini 16, Rimini"
+    }
+},
+{
+    "model": "catalogo.cliente",
+    "pk": 17,
+    "fields": {
+        "nome": "Giorgio",
+        "cognome": "Costa",
+        "email": "giorgio.costa@email.com",
+        "telefono": "+39 334 7890123",
+        "indirizzo": "Via Ancona 17, Ancona"
+    }
+},
+{
+    "model": "catalogo.cliente",
+    "pk": 18,
+    "fields": {
+        "nome": "Martina",
+        "cognome": "Giordano",
+        "email": "martina.giordano@email.com",
+        "telefono": "+39 334 8901234",
+        "indirizzo": "Via Lucca 18, Lucca"
+    }
+},
+{
+    "model": "catalogo.cliente",
+    "pk": 19,
+    "fields": {
+        "nome": "Davide",
+        "cognome": "Mancini",
+        "email": "davide.mancini@email.com",
+        "telefono": "+39 334 9012345",
+        "indirizzo": "Via Pistoia 19, Pistoia"
+    }
+},
+{
+    "model": "catalogo.cliente",
+    "pk": 20,
+    "fields": {
+        "nome": "Sara",
+        "cognome": "Caruso",
+        "email": "sara.caruso@email.com",
+        "telefono": "+39 335 1234567",
+        "indirizzo": "Via Arezzo 20, Arezzo"
+    }
+},
+{
+    "model": "catalogo.cliente",
+    "pk": 21,
+    "fields": {
+        "nome": "Federico",
+        "cognome": "Cattaneo",
+        "email": "federico.cattaneo@email.com",
+        "telefono": "+39 335 2345678",
+        "indirizzo": "Via Siena 21, Siena"
+    }
+},
+{
+    "model": "catalogo.cliente",
+    "pk": 22,
+    "fields": {
+        "nome": "Elisa",
+        "cognome": "Esposito",
+        "email": "elisa.esposito@email.com",
+        "telefono": "+39 335 3456789",
+        "indirizzo": "Via Treviso 22, Treviso"
+    }
+},
+{
+    "model": "catalogo.cliente",
+    "pk": 23,
+    "fields": {
+        "nome": "Lorenzo",
+        "cognome": "Fabbri",
+        "email": "lorenzo.fabbri@email.com",
+        "telefono": "+39 335 4567890",
+        "indirizzo": "Via Udine 23, Udine"
+    }
+},
+{
+    "model": "catalogo.cliente",
+    "pk": 24,
+    "fields": {
+        "nome": "Arianna",
+        "cognome": "Marchetti",
+        "email": "arianna.marchetti@email.com",
+        "telefono": "+39 335 5678901",
+        "indirizzo": "Via Trento 24, Trento"
+    }
+},
+{
+    "model": "catalogo.cliente",
+    "pk": 25,
+    "fields": {
+        "nome": "Tommaso",
+        "cognome": "Vitale",
+        "email": "tommaso.vitale@email.com",
+        "telefono": "+39 335 6789012",
+        "indirizzo": "Via Bolzano 25, Bolzano"
+    }
+},
+{
+    "model": "catalogo.cliente",
+    "pk": 26,
+    "fields": {
+        "nome": "Greta",
+        "cognome": "Rizzo",
+        "email": "greta.rizzo@email.com",
+        "telefono": "+39 335 7890123",
+        "indirizzo": "Via Cagliari 26, Cagliari"
+    }
+},
+{
+    "model": "catalogo.cliente",
+    "pk": 27,
+    "fields": {
+        "nome": "Nicola",
+        "cognome": "Santoro",
+        "email": "nicola.santoro@email.com",
+        "telefono": "+39 335 8901234",
+        "indirizzo": "Via Palermo 27, Catania"
+    }
+},
+{
+    "model": "catalogo.cliente",
+    "pk": 28,
+    "fields": {
+        "nome": "Alice",
+        "cognome": "Ferri",
+        "email": "alice.ferri@email.com",
+        "telefono": "+39 336 1234567",
+        "indirizzo": "Via Messina 28, Messina"
+    }
+},
+{
+    "model": "catalogo.cliente",
+    "pk": 29,
+    "fields": {
+        "nome": "Roberto",
+        "cognome": "Moretti",
+        "email": "roberto.moretti@email.com",
+        "telefono": "+39 336 2345678",
+        "indirizzo": "Via Bari 29, Bari"
+    }
+},
+{
+    "model": "catalogo.cliente",
+    "pk": 30,
+    "fields": {
+        "nome": "Emma",
+        "cognome": "Martinelli",
+        "email": "emma.martinelli@email.com",
+        "telefono": "+39 336 3456789",
+        "indirizzo": "Via Lecce 30, Lecce"
+    }
+}
+]
